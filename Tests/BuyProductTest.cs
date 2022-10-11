@@ -10,7 +10,7 @@ namespace saucedemo.Tests
     {
         [Test]
 
-        public void Add_ProductToCartTest()
+        public void BuyProductTest()
         {
             LoginPage lp = new LoginPage(driver);
             lp.Login("standard_user", "secret_sauce");
